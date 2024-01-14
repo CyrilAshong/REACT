@@ -1,6 +1,14 @@
 const Home = () => {
+
+    const handleClick = () => {
+        console.log("I was clicked");
+    }
+
     return (
-        <h1>Home Page</h1>
+        <div className="home">
+            <h1>Home Page</h1>
+            <button onClick = { handleClick }>Click Me</button>
+        </div>
     );
 }
  
